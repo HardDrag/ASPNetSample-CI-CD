@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
             builder
             .AllowAnyMethod()
             .AllowAnyHeader()
-            .WithOrigins("http://localhost:3000", "https://appname.azurestaticapps.net");
+            .WithOrigins("http://localhost:3000", "https://kind-pebble-04c9da903.1.azurestaticapps.net");
         }); 
 });
 
